@@ -1,0 +1,29 @@
+{
+
+    "name" : "yuri-spm/phptips001",
+    "description": "PHPMAILLER | PHP Tips #003",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yuri Monte",
+            "email": "yuri.spm@gmail.com"
+
+        }
+    ],
+
+    "autoload": {
+        "psr-4": {
+            "Source\\":"source/"
+        },
+        "files":[
+            "source/Config.php"
+        ]
+
+    },
+
+    "require": {
+        "phpmailer/phpmailer": "^6.2"
+    }
+
+}

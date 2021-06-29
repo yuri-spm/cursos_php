@@ -1,0 +1,32 @@
+{
+
+    "name" : "yuri-spm/phptips",
+    "description": "GERANDO BLOG COM PAGINAÇÃO DE RESULTADOS | PHP Tips #005",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yuri Monte",
+            "email": "yuri.spm@gmail.com"
+
+        }
+    ],
+
+    "autoload": {
+        "psr-4": {
+            "Source\\":"source/"
+        },
+        "files":[
+            "source/Config.php"
+        ]
+
+    },
+
+    "require": {
+        "coffeecode/router": "^1.0",
+        "coffeecode/datalayer": "^1.1",
+        "coffeecode/paginator": "^1.0",
+        "fzaninotto/faker": "^1.9"
+    }
+
+}

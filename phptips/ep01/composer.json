@@ -1,0 +1,34 @@
+{
+
+    "name" : "yuri-spm/phptips001",
+    "description": "Conhecendo o Composer e Configurando IDE | PHP Tips #001",
+    "minimum-stability": "stable",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Yuri Monte",
+            "email": "yuri.spm@gmail.com",
+            "role": "Developer"
+
+        }
+    ],
+
+    "config" :{
+        "vendor-dir": "vendor"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Source\\":"Source/"
+        },
+        "files":[
+            "source/Config.php"
+        ]
+
+    },
+
+    "require": {
+        "coffeecode/datalayer": "1.1.2"
+    }
+
+}
