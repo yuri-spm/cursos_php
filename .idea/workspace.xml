@@ -8,12 +8,28 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/fullstackphp/composer.json</pharConfigPath>
     <execution>
       <executable />
     </execution>
   </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/fullstackphp/vendor/coffeecode/router" />
+      <path value="$PROJECT_DIR$/fullstackphp/vendor/coffeecode/uploader" />
+      <path value="$PROJECT_DIR$/fullstackphp/vendor/coffeecode/optimizer" />
+      <path value="$PROJECT_DIR$/fullstackphp/vendor/coffeecode/paginator" />
+      <path value="$PROJECT_DIR$/fullstackphp/vendor/rosell-dk/webp-convert" />
+      <path value="$PROJECT_DIR$/fullstackphp/vendor/league/plates" />
+      <path value="$PROJECT_DIR$/fullstackphp/vendor/coffeecode/cropper" />
+      <path value="$PROJECT_DIR$/fullstackphp/vendor/phpmailer/phpmailer" />
+      <path value="$PROJECT_DIR$/fullstackphp/vendor/rosell-dk/image-mime-type-guesser" />
+      <path value="$PROJECT_DIR$/fullstackphp/vendor/composer" />
+    </include_path>
+  </component>
   <component name="ProjectId" id="1uckn51lifJQnM1O2AJWc2GXC4O" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
@@ -40,6 +56,7 @@
       <option name="presentableId" value="Default" />
       <updated>1624972430139</updated>
       <workItem from="1624972439515" duration="2094000" />
+      <workItem from="1625012474100" duration="287000" />
     </task>
     <servers />
   </component>
