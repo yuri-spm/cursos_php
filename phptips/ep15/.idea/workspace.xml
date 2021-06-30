@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5428beef-97ac-4967-82c9-f787f20259b1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ep13/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/../ep13/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ep13/source/controllers/Form.php" beforeDir="false" afterPath="$PROJECT_DIR$/../ep13/source/controllers/Form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ep13/theme/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/../ep13/theme/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/Controllers/WebCart.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/Controllers/WebCart.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/theme/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/theme/home.php" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>c</find>
+      <find>card</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="PhpServers">
+    <servers>
+      <server host="localhost" id="a2cdf6ef-913c-445d-922b-e64528c8c5e5" name="localhost" />
+    </servers>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/coffeecode/router" />
+      <path value="$PROJECT_DIR$/vendor/coffeecode/datalayer" />
+      <path value="$PROJECT_DIR$/vendor/league/plates" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1o2OyfDGSBTnHhtuGfUN9mimtcm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Xdebug" type="PhpRemoteDebugRunConfigurationType" factoryName="PHP Remote Debug" filter_connections="FILTER" server_name="localhost" session_id="PHPSTORM">
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5428beef-97ac-4967-82c9-f787f20259b1" name="Default Changelist" comment="" />
+      <created>1611531511265</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1611531511265</updated>
+      <workItem from="1611531512459" duration="2546000" />
+      <workItem from="1611705489037" duration="1083000" />
+      <workItem from="1611787642498" duration="4602000" />
+      <workItem from="1611792617647" duration="220000" />
+      <workItem from="1611794992314" duration="223000" />
+      <workItem from="1611924783969" duration="4307000" />
+      <workItem from="1611939862937" duration="12701000" />
+      <workItem from="1611975234744" duration="234000" />
+      <workItem from="1612030249073" duration="4088000" />
+      <workItem from="1612119790883" duration="2418000" />
+      <workItem from="1612481486573" duration="828000" />
+      <workItem from="1612489964393" duration="44000" />
+      <workItem from="1612611923702" duration="42000" />
+      <workItem from="1612916082353" duration="636000" />
+      <workItem from="1613000784794" duration="23000" />
+      <workItem from="1613089340617" duration="2831000" />
+      <workItem from="1613695815223" duration="175000" />
+      <workItem from="1614462696341" duration="183000" />
+      <workItem from="1615335678687" duration="165000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/index.php</url>
+          <line>11</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/index.php</url>
+          <line>10</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

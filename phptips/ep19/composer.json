@@ -1,0 +1,30 @@
+{
+
+  "name" : "yuri-spm/phptips",
+  "description": "Login Social Via Google com Oauth 2 Client| PHP Tips #019",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Yuri Monte",
+      "email": "yuri.spm@gmail.com"
+
+    }
+  ],
+
+  "autoload": {
+    "psr-4": {
+      "Source\\":"source/"
+    },
+    "files":[
+      "source/Config.php"
+    ]
+
+  },
+
+  "require": {
+    "league/oauth2-google": "3.0.*"
+
+  }
+
+}

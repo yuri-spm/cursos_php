@@ -1,0 +1,28 @@
+{
+  "name": "robsonvleite/phptips009",
+  "description": "ABASTRAINDO SEO E SMO ON PAGE COM OPTIMIZER",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Robson V. Leite",
+      "email": "cursos@upinside.com.br"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Config.php"
+    ]
+  },
+  "require": {
+    "php": "^7.3",
+    "ext-pdo": "*",
+    "coffeecode/datalayer": "1.1.*",
+    "coffeecode/router": "^1.0",
+    "league/plates": "v4.0.0-alpha",
+    "coffeecode/optimizer": "2.0.*"
+  }
+}

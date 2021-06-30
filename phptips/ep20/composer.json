@@ -1,0 +1,29 @@
+{
+
+  "name" : "yuri-spm/phptips",
+  "description": "Modelo, regra de negócio e validação de dados| PHP Tips #020",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Yuri Monte",
+      "email": "yuri.spm@gmail.com"
+
+    }
+  ],
+
+  "autoload": {
+    "psr-4": {
+      "Source\\":"source/"
+    },
+    "files":[
+      "source/Config.php"
+    ]
+
+  },
+
+  "require": {
+    "coffeecode/datalayer": "1.1.*"
+  }
+
+}

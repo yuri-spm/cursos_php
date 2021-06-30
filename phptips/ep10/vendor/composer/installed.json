@@ -1,0 +1,66 @@
+{
+    "packages": [
+        {
+            "name": "coffeecode/uploader",
+            "version": "1.0.2",
+            "version_normalized": "1.0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/robsonvleite/uploader.git",
+                "reference": "0c658f7023d5fc7161a7dea633f1955ae249c1f2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/robsonvleite/uploader/zipball/0c658f7023d5fc7161a7dea633f1955ae249c1f2",
+                "reference": "0c658f7023d5fc7161a7dea633f1955ae249c1f2",
+                "shasum": ""
+            },
+            "require": {
+                "ext-gd": "^7.1",
+                "ext-mbstring": "^7.1",
+                "php": "^7.1"
+            },
+            "time": "2018-10-05T12:05:00+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "CoffeeCode\\Uploader\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Robson V. Leite",
+                    "email": "cursos@upinside.com.br",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Tiago Chini",
+                    "email": "tiago.chini@hotmail.com",
+                    "role": "collaborator"
+                }
+            ],
+            "description": "It is a easy PHP upload manager for images, files and media in your application",
+            "homepage": "http://www.upinside.com.br",
+            "keywords": [
+                "Coffeecode",
+                "Image upload",
+                "file upload",
+                "media upload",
+                "upinside",
+                "upload"
+            ],
+            "support": {
+                "issues": "https://github.com/robsonvleite/uploader/issues",
+                "source": "https://github.com/robsonvleite/uploader/tree/master"
+            },
+            "install-path": "../coffeecode/uploader"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

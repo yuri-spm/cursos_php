@@ -1,0 +1,25 @@
+{
+  "name": "robsonvleite/phptips012",
+  "description": "MANIPULANDO DADOS EM ARQUIVOS CSV COM PHP",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Robson V. Leite",
+      "email": "cursos@upinside.com.br"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Config.php"
+    ]
+  },
+  "require": {
+    "coffeecode/datalayer": "1.1.*",
+    "fzaninotto/faker": "1.8.*",
+    "league/csv": "9.3.*"
+  }
+}
