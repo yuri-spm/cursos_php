@@ -11,14 +11,17 @@ define("CONF_DB_NAME", "fullstackphp");
  * PROJECT URLs
  */
 define("CONF_URL_TEST", "https://www.cafecontrol.com.br");
-define("CONF_URL_BASE", "https://localhost/cursos_php/fsphp");
+define("CONF_URL_BASE", "https://localhost/cursos_php/fullstackphp");
 
 define("CONF_URL_ADMIN", "/admin");
 
 /**
  * SITE
  */
-define("CONF_SITE_NAME", "UpInside");
+define("CONF_SITE_NAME", "CaféControl");
+define("CONF_SITE_TITLE", "Gerencie suas contas com o melhor café");
+define("CONF_SITE_DESC",
+    "O CafeControl é um gerenciador de contas simples, poderoso e gratuito. O prazer de tomar um café e ter o controle total de suas contas.");
 define("CONF_SITE_LANG", "pt_BR");
 define("CONF_SITE_DOMAIN", "upinside.com.br");
 
@@ -61,7 +64,7 @@ define("CONF_MESSAGE_ERROR", "error");
  */
 define("CONF_VIEW_PATH", __DIR__ . "/../../shared/views");
 define("CONF_VIEW_EXT", "php");
-define("CONF_VIEW_THEME", __DIR__ . "cafecontrol");
+define("CONF_VIEW_THEME", "cafecontrol");
 
 
 /**

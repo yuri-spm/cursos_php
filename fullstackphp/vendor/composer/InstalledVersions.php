@@ -30,7 +30,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => '99b8165ed9c131c35a90949de1d595e1421c2d15',
+    'reference' => '175a15c14c3653844cd906435c1144a4db892fea',
     'name' => 'upinside/fsphp',
   ),
   'versions' => 
@@ -123,7 +123,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '99b8165ed9c131c35a90949de1d595e1421c2d15',
+      'reference' => '175a15c14c3653844cd906435c1144a4db892fea',
     ),
   ),
 );
