@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="WEB_MODULE" version="4">
   <component name="NewModuleRootManager">
+<<<<<<< HEAD
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/fullstackphp/source" isTestSource="false" packagePrefix="Source\" />
       <excludeFolder url="file://$MODULE_DIR$/fullstackphp/vendor/coffeecode/cropper" />
@@ -14,6 +15,9 @@
       <excludeFolder url="file://$MODULE_DIR$/fullstackphp/vendor/rosell-dk/image-mime-type-guesser" />
       <excludeFolder url="file://$MODULE_DIR$/fullstackphp/vendor/rosell-dk/webp-convert" />
     </content>
+=======
+    <content url="file://$MODULE_DIR$" />
+>>>>>>> 953fa9faed6223fd6eea2f0c29d5d4102afff811
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>

@@ -8,12 +8,17 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
   <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/fullstackphp/composer.json</pharConfigPath>
+=======
+  <component name="ComposerSettings">
+>>>>>>> 953fa9faed6223fd6eea2f0c29d5d4102afff811
     <execution>
       <executable />
     </execution>
   </component>
+<<<<<<< HEAD
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
       <path value="$PROJECT_DIR$/fullstackphp/vendor/coffeecode/router" />
@@ -30,6 +35,9 @@
   </component>
   <component name="ProjectId" id="1uckn51lifJQnM1O2AJWc2GXC4O" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+=======
+  <component name="ProjectId" id="1uckn51lifJQnM1O2AJWc2GXC4O" />
+>>>>>>> 953fa9faed6223fd6eea2f0c29d5d4102afff811
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
@@ -56,7 +64,10 @@
       <option name="presentableId" value="Default" />
       <updated>1624972430139</updated>
       <workItem from="1624972439515" duration="2094000" />
+<<<<<<< HEAD
       <workItem from="1625012474100" duration="650000" />
+=======
+>>>>>>> 953fa9faed6223fd6eea2f0c29d5d4102afff811
     </task>
     <servers />
   </component>
