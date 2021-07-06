@@ -31,14 +31,6 @@ class Web extends Controller
     }
 
     /**
-     * SITE ABOUT
-     */
-    public function about():void
-    {
-
-    }
-
-    /**
      * SITE NAV ERROR
      * @param array $data
      */

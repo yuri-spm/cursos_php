@@ -30,7 +30,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => '175a15c14c3653844cd906435c1144a4db892fea',
+    'reference' => 'fac74da20e8e239ae33009c19b3e95a3161855ba',
     'name' => 'upinside/fsphp',
   ),
   'versions' => 
@@ -89,6 +89,24 @@ private static $installed = array (
       ),
       'reference' => 'f53f4c1fa4bf307d0f3858a348172ff4faf7669a',
     ),
+    'matthiasmullie/minify' => 
+    array (
+      'pretty_version' => '1.3.66',
+      'version' => '1.3.66.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '45fd3b0f1dfa2c965857c6d4a470bea52adc31a6',
+    ),
+    'matthiasmullie/path-converter' => 
+    array (
+      'pretty_version' => '1.1.3',
+      'version' => '1.1.3.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'e7d13b2c7e2f2268e1424aaed02085518afa02d9',
+    ),
     'phpmailer/phpmailer' => 
     array (
       'pretty_version' => 'v6.5.0',
@@ -100,12 +118,12 @@ private static $installed = array (
     ),
     'rosell-dk/image-mime-type-guesser' => 
     array (
-      'pretty_version' => '0.3',
-      'version' => '0.3.0.0',
+      'pretty_version' => '0.3.1',
+      'version' => '0.3.1.0',
       'aliases' => 
       array (
       ),
-      'reference' => '204fd61ca81e3b0ba46c6165dab8f74816b1fe99',
+      'reference' => '5915934d66a7869cecc7141adf90581aad81023d',
     ),
     'rosell-dk/webp-convert' => 
     array (
@@ -123,7 +141,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '175a15c14c3653844cd906435c1144a4db892fea',
+      'reference' => 'fac74da20e8e239ae33009c19b3e95a3161855ba',
     ),
   ),
 );
