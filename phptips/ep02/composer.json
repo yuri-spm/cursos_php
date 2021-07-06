@@ -1,0 +1,30 @@
+{
+
+    "name" : "yuri-spm/phptips001",
+    "description": "Abstração de Banco de Dados com Data Layer | PHP Tips #002",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yuri Monte",
+            "email": "yuri.spm@gmail.com"
+
+        }
+    ],
+
+    "autoload": {
+        "psr-4": {
+            "Source\\":"source/"
+        },
+        "files":[
+            "source/Config.php"
+        ]
+
+    },
+
+    "require": {
+        "coffeecode/datalayer": "^1.1"
+
+    }
+
+}
