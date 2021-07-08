@@ -163,6 +163,15 @@ function theme(string $path = null):string
     return  CONF_URL_BASE . "/theme/" . CONF_VIEW_THEME;
 }
 
+
+/**
+ * @return string
+ */
+function url_back():string
+{
+    return ($_SERVER['HTTP_REFERER'] ?? url());
+}
+
 /**
  * @param string $url
  */

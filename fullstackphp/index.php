@@ -20,6 +20,7 @@ $route = new Router(url(), ":");
 $route->namespace("Source\App");
 $route->get("/", "Web:home");
 $route->get("/sobre", "Web:about");
+$route->get("/termos", "Web:terms");
 
 
 /**

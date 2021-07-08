@@ -14,7 +14,7 @@ return array(
     'bdc465a053da7f7ddb072631f6d41d45' => $vendorDir . '/league/plates/src/Extension/LayoutSections/layout-sections.php',
     'afa76803f24616d7599be3b7b0846adc' => $vendorDir . '/league/plates/src/Extension/Folders/folders.php',
     '16c5be35e32c6cf916d875518b909210' => $vendorDir . '/league/plates/src/Util/util.php',
-    '55fb336536ae5bc31a7b01dce8d1b0c7' => $baseDir . '/source/Support/Config.php',
-    'aca327319da60b4dfe47e4ecc58b9ec7' => $baseDir . '/source/Support/Helpers.php',
-    '5f0b42a9ac48fda1322cb393a65ece0c' => $baseDir . '/source/Support/Minify.php',
+    '44ef1d8ec27ad01e41d8f15ce932b11b' => $baseDir . '/source/Boot/Config.php',
+    '05de05ae944629deebff09b1e7131018' => $baseDir . '/source/Boot/Helpers.php',
+    'a5cccdecb2f40aa7204a65356dcba09d' => $baseDir . '/source/Boot/Minify.php',
 );
