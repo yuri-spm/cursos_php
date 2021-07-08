@@ -5,6 +5,7 @@ namespace Source\App;
 
 
 use Source\Core\Controller;
+use Source\Support\Pager;
 
 /**
  * Class Web
@@ -52,6 +53,41 @@ class Web extends Controller
             "head" => $head,
             "video" => "lDZGl9Wdc7Y"
         ]);
+    }
+
+
+    public function blog(?array $data):void
+    {
+        $head = $this->seo->render(
+            "Blog " . CONF_SITE_NAME,
+            "Configura em nosso blog dicas e sacadas de como controlar melhor suas contas. Vamos tomar um café",
+            url("/blog"),
+            theme("/assets/images/share.jpg")
+        );
+
+        $pager = new Pager(url("/blog/page"));
+        $pager->pager(100, 10, ($data['page'] ?? 1));
+        echo $this->view->render("blog",[
+            "head" => $head,
+            "paginator" => $pager->render()
+        ]);
+    }
+
+
+    public function blogPost(array $data):void
+    {
+        $postName = $data['postName'];
+        $head = $this->seo->render(
+            "POST NAME " . CONF_SITE_NAME,
+            "POST HEADLINE",
+            url("/blog/{postName}"),
+            theme("BLOG IMAGE")
+        );
+        echo $this->view->render("blog-post",[
+            "head" => $head,
+            "data" => $this->seo->data()
+        ]);
+
     }
 
     /**
