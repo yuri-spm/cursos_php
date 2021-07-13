@@ -1,23 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f7dc436d-4d90-4497-b664-1e4c45125a9d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/ep14/.idea/ep14.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ep14/.idea/ep14.iml" afterDir="false" />
-    </list>
+    <list default="true" id="f7dc436d-4d90-4497-b664-1e4c45125a9d" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/ep01/composer.json</pharConfigPath>
     <execution>
       <executable />
     </execution>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -54,6 +52,7 @@
       <option name="presentableId" value="Default" />
       <updated>1616850724024</updated>
       <workItem from="1616850734864" duration="47000" />
+      <workItem from="1625939964957" duration="1023000" />
     </task>
     <servers />
   </component>
@@ -65,7 +64,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

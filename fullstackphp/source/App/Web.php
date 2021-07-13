@@ -4,6 +4,7 @@
 namespace Source\App;
 
 
+use Source\Core\Connect;
 use Source\Core\Controller;
 use Source\Support\Pager;
 
@@ -56,6 +57,10 @@ class Web extends Controller
     }
 
 
+    /**
+     * SITE BLOG
+     * @param array|null $data
+     */
     public function blog(?array $data):void
     {
         $head = $this->seo->render(
@@ -74,6 +79,10 @@ class Web extends Controller
     }
 
 
+    /**
+     * SITE BLOG POST
+     * @param array $data
+     */
     public function blogPost(array $data):void
     {
         $postName = $data['postName'];
@@ -88,6 +97,91 @@ class Web extends Controller
             "data" => $this->seo->data()
         ]);
 
+    }
+
+    /**
+     * SITE LOGIN
+     */
+    public function login()
+    {
+        $head = $this->seo->render(
+            "Entrar - ". CONF_SITE_NAME,
+            CONF_SITE_DESC,
+            url("/entrar"),
+            theme("/assets/images/share.jpg")
+        );
+        echo $this->view->render("auth-login",[
+            "head" => $head,
+
+        ]);
+    }
+
+    /**
+     * SITE FORGET
+     */
+    public function forget()
+    {
+        $head = $this->seo->render(
+            "Recuperar Senha - ". CONF_SITE_NAME,
+            CONF_SITE_DESC,
+            url("/recuperar"),
+            theme("/assets/images/share.jpg")
+        );
+        echo $this->view->render("auth-forget",[
+            "head" => $head,
+
+        ]);
+    }
+
+    /**
+     * SITE REGISTER
+     */
+    public function register()
+    {
+        $head = $this->seo->render(
+            "Criar conta - ". CONF_SITE_NAME,
+            CONF_SITE_DESC,
+            url("/cadastrar"),
+            theme("/assets/images/share.jpg")
+        );
+        echo $this->view->render("auth-register",[
+            "head" => $head,
+
+        ]);
+    }
+
+    /**
+     * SITE OPTIN LOGIN
+     */
+    public function confirm()
+    {
+        $head = $this->seo->render(
+            "Confirme Seu Cadastro - ". CONF_SITE_NAME,
+            CONF_SITE_DESC,
+            url("/confirma"),
+            theme("/assets/images/share.jpg")
+        );
+        echo $this->view->render("optin-confirm",[
+            "head" => $head,
+
+        ]);
+    }
+
+    /**
+     * SITE OPTIN SUCSESS
+     */
+    public function success()
+    {
+        $head = $this->seo->render(
+            "Confirme Seu Cadastro - ". CONF_SITE_NAME,
+            CONF_SITE_DESC,
+            url("/obrigado"),
+            theme("/assets/images/share.jpg")
+        );
+        echo $this->view->render("optin-success",[
+            "head" => $head,
+
+        ]);
     }
 
     /**
@@ -117,16 +211,38 @@ class Web extends Controller
     public function error(array $data):void
     {
         $error = new \stdClass();
-        $error->code = $data['errcode'];
-        $error->title = "Ooops Contéudo indispónivel :/";
-        $error->message = "Sentimos muito, mas o contéudo que você tentou acessar não existe, não está dispónivel no momento ou foi removido";
-        $error->linkTitle = "Continue navegando";
-        $error->link = url_back();
+
+        switch ($data['errcode']){
+            case "problemas":
+                $error->code = "OPS";
+                $error->title = "Estamos enfrentando problemas!";
+                $error->message = "Parece que nosso serviço não está disponível no momento. Já estamos vendo isso mas cado precise, envie um e-mail :)";
+                $error->linkTitle = "ENVIAR E-MAIL";
+                $error->link = "mailto:" . CONF_MAIL_SUPPORT;
+                break;
+
+            case "manutencao":
+                $error->code = "OPS";
+                $error->title = "Desculpe Estamos em manutenção :/";
+                $error->message = "Voltamos logo! Por hora estamos trabalhando para melhorar nosso contéudo para você controlar melhor as suas contas :/";
+                $error->linkTitle = null;
+                $error->link = null;
+                break;
+
+            default:
+                $error->code = $data['errcode'];
+                $error->title = "Ooops Contéudo indispónivel :/";
+                $error->message = "Sentimos muito, mas o contéudo que você tentou acessar não existe, não está dispónivel no momento ou foi removido";
+                $error->linkTitle = "Continue navegando";
+                $error->link = url_back();
+
+                break;
+        }
 
         $head = $this->seo->render(
             "{$error->code} | {$error->title}",
             $error->message,
-            url_back("/ops/{$error->code}"),
+            url("/ops/{$error->code}"),
             theme("/assets/images/share.jpg"),
             false
 

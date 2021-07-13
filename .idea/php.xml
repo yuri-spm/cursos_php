@@ -12,6 +12,8 @@
       <path value="$PROJECT_DIR$/fullstackphp/vendor/phpmailer/phpmailer" />
       <path value="$PROJECT_DIR$/fullstackphp/vendor/rosell-dk/image-mime-type-guesser" />
       <path value="$PROJECT_DIR$/fullstackphp/vendor/composer" />
+      <path value="$PROJECT_DIR$/fullstackphp/vendor/matthiasmullie/path-converter" />
+      <path value="$PROJECT_DIR$/fullstackphp/vendor/matthiasmullie/minify" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.1" />

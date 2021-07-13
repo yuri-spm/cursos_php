@@ -24,18 +24,18 @@ class Connect
     /**
      * @return \PDO
      */
-    public static function getInstance(): \PDO
+    public static function getInstance(): ?\PDO
     {
         if (empty(self::$instance)) {
             try {
                 self::$instance = new \PDO(
-                    "mysql:host=" . CONF_DB_HOST . ";dbname=" . CONF_DB_NAME,
+                    "mysql:host=" . CONF_DB_HOST . ";dbname=1" . CONF_DB_NAME,
                     CONF_DB_USER,
                     CONF_DB_PASS,
                     self::OPTIONS
                 );
             } catch (\PDOException $exception) {
-                die("<h1>Whoops! Erro ao conectar...</h1>");
+                redirect("/ops/problemas");
             }
         }
 
